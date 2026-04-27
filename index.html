@@ -85,6 +85,16 @@ img {
     border-radius: 12px;
 }
 
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    background: #111;
+    border: 1px solid #333;
+    color: #fff;
+    border-radius: 6px;
+}
+
 @media (max-width: 768px) {
     .hero h1 { font-size: 26px; }
     .btn { width: 100%; text-align: center; }
@@ -100,9 +110,8 @@ img {
     <a href="https://velvetroyale.github.io/velvet-royale/ro.html" style="color:#f5c16c;">Română</a> |
     <a href="https://velvetroyale.github.io/velvet-royale/tl.html" style="color:#f5c16c;">Tagalog</a>
 </div>
-</div>
 
-<!-- HERO -->
+<!-- HERO (kept, no CTA button anymore) -->
 <div class="hero">
     <h1>🍫 Velvet Royale 95% Dark Premium Chocolate</h1>
     <p>Pure Davao Cocoa Experience</p>
@@ -116,10 +125,6 @@ img {
         <img src="https://raw.githubusercontent.com/velvetroyale/velvet-royale/main/velvet%20royale%20sale%20poster.png"
         alt="Velvet Royale Sale Poster">
     </div>
-
-    <a class="btn" href="https://www.paypal.com/ncp/payment/ZUKJQTVH3QCU2" target="_blank">
-        Get Brand License Access
-    </a>
 </div>
 
 <div class="container">
@@ -184,83 +189,42 @@ img {
             </p>
         </div>
 
-        <div class="card">
-            <h3>🥈 Growth License</h3>
-            <p class="price">$1,000</p>
-            <p>
-            ✔ All in Starter<br>
-            ✔ Packaging included<br>
-            ✔ Marketing kit<br>
-            ✔ Launch support
-            </p>
-        </div>
-
-        <div class="card">
-            <h3>🥇 Pro License</h3>
-            <p class="price">$1,500</p>
-            <p>
-            ✔ All in Growth<br>
-            ✔ Commercial chocolate equipment bundle<br>
-            ✔ Full production system<br>
-            ✔ Scaling support
-            </p>
-        </div>
-
     </div>
 </div>
 
-<!-- PARTNER POSTER -->
-<div class="section" style="text-align:center;">
-    <h2>🤝 Partner Expansion</h2>
+<!-- ✅ ONLY KEEP FORM SECTION -->
+<div class="section" style="text-align:center; max-width:500px; margin:auto;">
 
-    <img src="https://raw.githubusercontent.com/velvetroyale/velvet-royale/main/velvet%20royale%20partner%20poster.png"
-    alt="Velvet Royale Partner Poster">
-</div>
+<h2>💼 Secure Your Velvet Royale Access</h2>
 
-<!-- ✅ LEAD CAPTURE FORM (ADDED - NO OTHER CHANGES) -->
-<div class="section" style="text-align:center;">
-    <h2>💼 Secure Your Velvet Royale Access</h2>
+<p class="price">Start your application below</p>
 
-    <p class="price">Start your application below</p>
+<p><b>Enter your details to continue to payment:</b></p>
 
-    <p><b>Enter your details to continue to payment:</b></p>
+<form action="https://formsubmit.co/rg.salesnetwork@gmail.com" method="POST">
 
-    <form 
-      action="https://formsubmit.co/rg.salesnetwork@gmail.com"
-      method="POST"
-      style="max-width:500px;margin:auto;"
-    >
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_subject" value="🍫 Velvet Royale Lead">
+    <input type="hidden" name="_next" value="https://www.paypal.com/ncp/payment/ZUKJQTVH3QCU2">
 
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_subject" value="🍫 New Velvet Royale Lead - Brand License">
-        <input type="hidden" name="_next" value="https://www.paypal.com/ncp/payment/ZUKJQTVH3QCU2">
+    <input type="text" name="First Name" value="aa" required>
+    <input type="email" name="Email" value="aa@aa.com" required>
+    <input type="text" name="Last Name" placeholder="Last Name (optional)">
+    <input type="text" name="Phone" placeholder="Phone (optional)">
+    <input type="text" name="Business Name" placeholder="Business / Brand Name (optional)">
 
-        <input type="text" name="First Name" placeholder="First Name" required>
-        <input type="email" name="Email" placeholder="Email" required>
-        <input type="text" name="Last Name" placeholder="Last Name (optional)">
-        <input type="tel" name="Phone" placeholder="Phone (optional)">
-        <input type="text" name="Business Name" placeholder="Business / Brand Name (optional)">
+    <!-- BUTTON UNDER BUSINESS FIELD -->
+    <button class="btn" type="submit" style="width:100%;">
+        Continue to Payment
+    </button>
 
-        <button class="btn" type="submit">
-            Continue to Payment
-        </button>
+</form>
 
-    </form>
-</div>
-
-<!-- CTA -->
-<div class="section" style="text-align:center;">
-    <h2>Ready to Start?</h2>
-    <p>Secure your access and build your Velvet Royale operation.</p>
-
-    <a class="btn" href="https://www.paypal.com/ncp/payment/ZUKJQTVH3QCU2" target="_blank">
-        Activate License Access
-    </a>
 </div>
 
 </div>
 
-<!-- CONTACT -->
+<!-- CONTACT (kept) -->
 <div class="section" style="text-align:center; background:#111;">
     <h2>📞 Contact</h2>
 
