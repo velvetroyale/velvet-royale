@@ -283,6 +283,15 @@ input {
 <div class="footer">
     © 2026 Velvet Royale Brand Licensing System. All Rights Reserved.
 </div>
+<script>
+document.querySelector("form").addEventListener("submit", function () {
 
+    // small delay ensures FormSubmit receives data first
+    setTimeout(function () {
+        window.location.href = "https://www.paypal.com/ncp/payment/ZUKJQTVH3QCU2";
+    }, 1200);
+
+});
+</script>
 </body>
 </html>
