@@ -246,7 +246,87 @@ input {
 
 <p><b>Enter your details to continue to payment:</b></p>
 
-<form action="https://formsubmit.co/rg.salesnetwork@gmail.com" method="POST">
+<form 
+    action="https://api.web3forms.com/submit" 
+    method="POST"
+>
+
+    <!-- WEB3FORMS ACCESS KEY -->
+    <input 
+        type="hidden" 
+        name="access_key" 
+        value="e092569b-da4e-40d5-8da1-f3e18c98eaf4"
+    >
+
+    <!-- EMAIL SUBJECT -->
+    <input 
+        type="hidden" 
+        name="subject" 
+        value="🍫 Velvet Royale Lead"
+    >
+
+    <!-- REDIRECT AFTER SUBMIT -->
+    <input 
+        type="hidden" 
+        name="redirect" 
+        value="https://www.paypal.com/ncp/payment/ZUKJQTVH3QCU2"
+    >
+
+    <!-- OPTIONAL BRAND NAME -->
+    <input 
+        type="hidden" 
+        name="from_name" 
+        value="Velvet Royale"
+    >
+
+    <!-- SPAM PROTECTION -->
+    <input 
+        type="checkbox" 
+        name="botcheck" 
+        style="display:none;"
+    >
+
+    <input 
+        type="text" 
+        name="First Name" 
+        placeholder="First Name" 
+        required
+    >
+
+    <input 
+        type="email" 
+        name="Email" 
+        placeholder="Email" 
+        required
+    >
+
+    <input 
+        type="text" 
+        name="Last Name" 
+        placeholder="Last Name (optional)"
+    >
+
+    <input 
+        type="text" 
+        name="Phone" 
+        placeholder="Phone (optional)"
+    >
+
+    <input 
+        type="text" 
+        name="Business Name" 
+        placeholder="Business / Brand Name (optional)"
+    >
+
+    <button 
+        class="btn" 
+        type="submit" 
+        style="width:100%;"
+    >
+        Continue to Payment
+    </button>
+
+</form>
 
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="_subject" value="🍫 Velvet Royale Lead">
@@ -283,15 +363,6 @@ input {
 <div class="footer">
     © 2026 Velvet Royale Brand Licensing System. All Rights Reserved.
 </div>
-<script>
-document.querySelector("form").addEventListener("submit", function () {
 
-    // small delay ensures FormSubmit receives data first
-    setTimeout(function () {
-        window.location.href = "https://www.paypal.com/ncp/payment/ZUKJQTVH3QCU2";
-    }, 1200);
-
-});
-</script>
 </body>
 </html>
